@@ -3,7 +3,11 @@
   themes: all;
 }
 
-:root{
-  --color-mclaren: #FF8000; 
+:root {
+  --color-mclaren: #ff8000;
 }
 
+/* Link home navbar */
+.box-link-main{
+  @apply flex-1 lg:flex-row flex lg:justify-start justify-center;
+}
