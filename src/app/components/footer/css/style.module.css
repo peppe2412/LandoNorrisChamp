@@ -1,0 +1,8 @@
+:root {
+  --color-mclaren: #ff8000;
+}
+
+.footerContainer{
+    margin-top: 450px;
+    color: var(--color-mclaren);
+}
