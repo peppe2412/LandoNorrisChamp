@@ -1,0 +1,34 @@
+:root {
+  --color-mclaren: #ff8000;
+}
+
+.headerMain {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.622), rgb(0, 0, 0)),
+    url("/lando-norris.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 150vh;
+}
+
+.headerTitle {
+  color: var(--color-mclaren);
+  animation: header-typing 5s steps(500);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.imgF1LogoHeader{
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-inline-end: 10px;
+}
+
+@keyframes header-typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 35ch;
+  }
+}

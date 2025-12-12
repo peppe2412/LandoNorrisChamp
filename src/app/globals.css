@@ -11,3 +11,16 @@
 .box-link-main{
   @apply flex-1 lg:flex-row flex lg:justify-start justify-center;
 }
+
+/* Header */
+.header-box{
+  @apply flex justify-center lg:h-full h-[30%] items-center;
+}
+
+.title-header{
+  @apply lg:text-5xl md:text-3xl text-xl text-center uppercase;
+}
+
+.img-header{
+  @apply lg:w-40 md:w-18 w-10
+}

@@ -1,11 +1,11 @@
 "use client";
 import { useState } from "react";
+import Header from "./sections/header/Header";
 
 export default function Home() {
-  
   return (
     <>
-      <h1 className="text-6xl text-red-400">Ciao</h1>
+      <Header />
     </>
   );
 }
