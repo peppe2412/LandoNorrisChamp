@@ -1,0 +1,91 @@
+:root {
+  --color-mclaren: #ff8000;
+}
+
+.champ_desc_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 25px;
+  padding: 20px;
+}
+
+.champ_desc_col_img {
+  grid-column: span 2 / span 2;
+  grid-row: span 1 / span 1;
+}
+
+
+.background_img_champ_desc {
+  background-color: var(--color-mclaren);
+  border-radius: 25% 75% 31% 69% / 69% 27% 73% 31%;
+  width: 40rem;
+}
+
+.desc_champ_col {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+}
+
+.champ_desc_title {
+  color: var(--color-mclaren);
+}
+
+@media (max-width: 480px) {
+  .champ_desc_col_img {
+    grid-column: span 10 / span 10;
+  }
+
+  .champ_desc_img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .background_img_champ_desc {
+    width: 30rem;
+  }
+
+  .desc_champ_col {
+    grid-column: span 10 / span 10;
+  }
+}
+
+@media (max-width: 768px) {
+  .champ_desc_col_img {
+    grid-column: span 7 / span 7;
+  }
+
+  .champ_desc_img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .background_img_champ_desc {
+    width: 20rem;
+  }
+
+  .desc_champ_col {
+    grid-column: span 10 / span 10;
+  }
+
+  .desc_champ {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .champ_desc_col_img {
+    grid-column: span 10 / span 10;
+  }
+
+  .champ_desc_img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desc_champ_col {
+    grid-column: span 10 / span 10;
+  }
+}

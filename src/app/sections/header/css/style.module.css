@@ -10,6 +10,24 @@
   height: 150vh;
 }
 
+@media (max-width: 480px){
+  .headerMain{
+    height: 50dvh;
+  }
+}
+
+@media (max-width: 768px){
+  .headerMain{
+    height: 70dvh;
+  }
+}
+
+@media (max-width: 1024px){
+  .headerMain{
+    height: 70dvh;
+  }
+}
+
 .headerTitle {
   color: var(--color-mclaren);
   animation: header-typing 5s steps(500);
