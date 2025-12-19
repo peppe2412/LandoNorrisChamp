@@ -7,9 +7,22 @@
   --color-mclaren: #ff8000;
 }
 
+.color-maclaren{
+  color: var(--color-mclaren);
+}
+
 /* Link home navbar */
 .box-link-main{
   @apply flex-1 lg:flex-row flex lg:justify-start justify-center;
+}
+
+/* dettagli navbar */
+.details{
+  @apply btn btn-ghost p-2;
+}
+
+.list-details{
+  @apply bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm;
 }
 
 /* Header */
@@ -25,6 +38,11 @@
   @apply lg:w-40 md:w-18 w-10
 }
 
+/* Containers */
+.sections-container{
+  @apply mt-10 p-10;
+}
+
 /* Descrizione campione */
 .title-champ-desc{
   @apply text-center lg:text-4xl text-2xl md:text-3xl;
@@ -36,4 +54,17 @@
 
 .desc{
   @apply text-center lg:text-left;
+}
+
+/* Dettagli pilota */
+.pilot-details-title{
+  @apply lg:text-3xl md:text-3xl text-xl;
+}
+
+.image-details-pilot{
+  @apply w-[500px] rounded-2xl lg:mt-0 md:mt-0 mt-5; 
+}
+
+.about{
+  @apply lg:text-2xl md:text-xl text-lg;
 }

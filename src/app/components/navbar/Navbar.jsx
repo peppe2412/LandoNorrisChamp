@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex-none lg:inline hidden">
           <ul className={`menu menu-horizontal px-1 ${styles.nav_links}`}>
             <li>
-              <a>Link</a>
+              <a href="#details">Dettagli</a>
             </li>
             <li>
               <a>Link</a>

@@ -31,7 +31,7 @@ export default function DescriptionChamp() {
 
         <div className={`${styles.desc_champ_col}`}>
           <div className={styles.desc_champ}>
-            <h2 className={`title-champ-desc ${styles.champ_desc_title}`}>
+            <h2 className={`title-champ-desc color-maclaren`}>
               Da giovane talento britannico a leggenda della F1
             </h2>
             <div className="desc-box">

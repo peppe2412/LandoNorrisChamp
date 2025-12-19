@@ -25,7 +25,7 @@ export default function Hamburger() {
           className={`${styles.hamburger_links} menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow`}
         >
           <li>
-            <a>Homepage</a>
+            <a href="#details">Dettagli</a>
           </li>
           <li>
             <a>Portfolio</a>

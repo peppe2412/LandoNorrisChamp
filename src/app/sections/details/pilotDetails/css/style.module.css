@@ -1,0 +1,26 @@
+.pilot_details_grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.pilot_details_col {
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+.pilot_details_img_col {
+  grid-area: 1 / 4 / 10 / 9;
+}
+
+@media (max-width: 480px) {
+  .pilot_details_col {
+    grid-area: 1 / 1 / 10 / 10;
+  }
+
+  .pilot_details_img_col {
+    margin-top: 10px;
+    grid-area: 10 / 10 / 10 / 9;
+  }
+}

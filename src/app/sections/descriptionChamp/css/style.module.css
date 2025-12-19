@@ -27,10 +27,6 @@
   grid-column-start: 3;
 }
 
-.champ_desc_title {
-  color: var(--color-mclaren);
-}
-
 @media (max-width: 480px) {
   .champ_desc_col_img {
     grid-column: span 10 / span 10;
